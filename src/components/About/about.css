@@ -1,0 +1,100 @@
+.about {
+  height: 70vh;
+  /* background-color: crimson; */
+  width: 100%;
+}
+
+.btn-shine {
+  font-size: 7rem;
+  font-weight: 800;
+  color: #20bcf7;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #20bcf7 0, #9b62e2 10%, #20bcf7 30%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+}
+@keyframes shine {
+  0% {
+    background-position: 0px;
+  }
+
+  50% {
+    background-position: 300px;
+  }
+
+  100% {
+    background-position: 1100px;
+  }
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.me {
+  width: 20rem;
+  margin: 2rem;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: #9b62e2;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.aboutText {
+  width: 30rem;
+  text-align: left;
+}
+
+.sunContainer {
+  /* background-color: brown; */
+  width: 18rem;
+  position: absolute;
+  top: 130%;
+  right: 0%;
+  overflow: hidden;
+}
+
+.sun {
+  width: 30rem;
+  z-index: 1;
+  position: relative;
+  right: -20%;
+  top: 130%;
+  /* background-color: blueviolet; */
+  animation: rotate 10s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

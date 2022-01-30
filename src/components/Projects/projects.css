@@ -1,0 +1,27 @@
+.projects {
+  height: 90vh;
+  padding: 3rem;
+  background-color: darkgreen;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.project {
+  width: 15rem;
+  margin: 1rem;
+  overflow: hidden;
+  border: darkblue solid;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
