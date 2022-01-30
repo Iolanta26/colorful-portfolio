@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
 
 import me from "./me.png";
 import pdf from "./CV.pdf";
@@ -6,9 +7,24 @@ import sun from "./sun.png";
 import "./about.css";
 
 const About = () => {
+  const container = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: require("./about.json"),
+    });
+  });
+
   return (
     <div className="about" id="about">
-      <div className="btn-shine">About</div>
+      <div className="aboutAnimation">
+        <div className="lying" ref={container}></div>
+        <div className="btn-shine">About</div>
+      </div>
       <div className="aboutContainer">
         <div className="imgButton">
           <img src={me} alt="me" className="me" />

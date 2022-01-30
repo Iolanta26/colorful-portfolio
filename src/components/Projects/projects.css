@@ -1,13 +1,16 @@
 .projects {
   height: 75vh;
+
   /* background-color: darkgreen; */
   padding: 2rem;
 }
 
 .flexContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
 }
 
 .lottieProjects {
@@ -40,7 +43,7 @@
   height: 12rem;
   object-fit: cover;
   z-index: 1;
-  border: black solid 1px;
+  /* border: black solid 1px; */
 }
 .project img:hover {
   background-color: rgb(245, 204, 242);
