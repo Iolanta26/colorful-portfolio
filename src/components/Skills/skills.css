@@ -1,4 +1,20 @@
 .skills {
-  height: 90vh;
-  background-color: darkslateblue;
+  height: 70vh;
+  /* background-color: darkslateblue; */
+  padding: 3rem;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lottie {
+  width: 30rem;
+}
+
+.icon {
+  width: 5rem;
+  margin: 1rem;
 }

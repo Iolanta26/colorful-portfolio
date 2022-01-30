@@ -1,7 +1,17 @@
 .projects {
-  height: 90vh;
-  padding: 3rem;
-  background-color: darkgreen;
+  height: 75vh;
+  /* background-color: darkgreen; */
+  padding: 2rem;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lottieProjects {
+  width: 12rem;
 }
 
 .projectsContainer {
@@ -9,19 +19,69 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.project img {
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
+.hoverText {
+  color: #000000;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+.project img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  z-index: 1;
+  border: black solid 1px;
+}
+.project img:hover {
+  background-color: rgb(245, 204, 242);
+  opacity: 0.2;
+  z-index: 0;
+}
+
 .project {
-  width: 15rem;
+  width: 12.5rem;
   margin: 1rem;
   overflow: hidden;
-  border: darkblue solid;
 }
 
 a {
   text-decoration: none;
   color: black;
 }
+
+.projectText {
+  color: #ef5fb4;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #ef5fb4 0, #9b62e2 30%, #ef5fb4 100%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: grad 3s infinite linear;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
+}
+/* @keyframes grad {
+  0% {
+    background-position: 0px;
+  }
+
+  50% {
+    background-position: 300px;
+  }
+
+  100% {
+    background-position: 1000px;
+  }
+} */

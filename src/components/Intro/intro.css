@@ -6,7 +6,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+
+.arrows {
+  position: absolute;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: move ease 3s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.arrows img {
+  height: 3rem;
+  margin-bottom: 1rem;
 }
 
 .introText {
@@ -17,6 +43,6 @@
 }
 
 .hello {
-  color: white;
+  color: black;
   font-size: 3rem;
 }

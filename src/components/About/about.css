@@ -1,11 +1,15 @@
 .about {
-  height: 70vh;
+  height: 78vh;
   /* background-color: crimson; */
   width: 100%;
+  padding: 3rem;
 }
 
 .btn-shine {
-  font-size: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8rem;
+  font-size: 5rem;
   font-weight: 800;
   color: #20bcf7;
   font-family: "Poppins", sans-serif;
@@ -13,7 +17,7 @@
   background-position: 0;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 4s infinite linear;
+  animation: shine 3s infinite linear;
   animation-fill-mode: forwards;
   white-space: nowrap;
 }
@@ -23,11 +27,11 @@
   }
 
   50% {
-    background-position: 300px;
+    background-position: 1000px;
   }
 
   100% {
-    background-position: 1100px;
+    background-position: 1500px;
   }
 }
 
@@ -75,19 +79,19 @@
   /* background-color: brown; */
   width: 18rem;
   position: absolute;
-  top: 130%;
+  top: 150%;
   right: 0%;
   overflow: hidden;
 }
 
 .sun {
-  width: 30rem;
+  width: 25rem;
   z-index: 1;
   position: relative;
-  right: -20%;
-  top: 130%;
+  right: -35%;
+  top: 150%;
   /* background-color: blueviolet; */
-  animation: rotate 10s infinite ease-in-out;
+  animation: rotate 15s infinite ease-in-out;
 }
 
 @keyframes rotate {

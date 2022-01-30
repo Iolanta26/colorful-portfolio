@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
 
 import customhook from "./pictures/customhook.jpg";
 import speedgame from "./pictures/speedgame.jpg";
@@ -9,9 +10,24 @@ import food_order from "./pictures/food-order.png";
 import "./projects.css";
 
 const Projects = () => {
+  const container = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: require("./projects.json"),
+    });
+  });
+
   return (
     <div className="projects" id="projects">
-      <h1 className="projectText">PROJECTS</h1>
+      <div className="flexContainer">
+        <h1 className="projectText">Projects</h1>
+        <div className="lottieProjects" ref={container}></div>
+      </div>
       <div className="projectsContainer">
         <div className="project">
           <a
@@ -43,8 +59,7 @@ const Projects = () => {
           <p className="desc">
             Frontend: React Js <br />
             Backend: PHP and Symfony <br />
-            Backend deployed on Heroku and needs some time to load. This is the
-            final project for the first semester at Helsinki Business College.
+            Backend deployed on Heroku and needs some time to load.
           </p>
         </div>
         <div className="project">
@@ -60,8 +75,7 @@ const Projects = () => {
           </a>
           <p className="desc">
             Frontend: React Js <br />
-            Basic food ordering app using state management, hooks and custom
-            hooks, ContextApi.
+            Basic food ordering app using state management, hooks, ContextApi.
           </p>
         </div>
         <div className="project">
@@ -75,11 +89,7 @@ const Projects = () => {
               <p className="hoverText">React SpeedGame</p>
             </div>
           </a>
-          <p className="desc">
-            This game has been made during the React course at Business College.
-            Here I practice using class components and adding sounds. The music
-            is off to not bother the viewers.
-          </p>
+          <p className="desc">Created using React Js, class components.</p>
         </div>
         <div className="project">
           <a

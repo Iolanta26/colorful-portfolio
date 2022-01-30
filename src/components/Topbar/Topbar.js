@@ -19,6 +19,9 @@ const Topbar = () => {
           <a href="#skills">
             <p>SKILLS</p>
           </a>
+          <a href="#contacts">
+            <p>CONTACTS</p>
+          </a>
         </div>
       </div>
     </div>
