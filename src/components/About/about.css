@@ -5,26 +5,22 @@
   padding: 3rem;
 }
 
-.aboutAnimation {
+.btnAnimation {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  /* background-color: blueviolet; */
 }
+
 .lying {
-  width: 11rem;
-  justify-content: flex-end;
-  /* background-color: brown; */
-  position: absolute;
-  margin-bottom: 0.4rem;
-  margin-right: 8rem;
+  width: 200px;
+  max-height: 123px;
 }
 
 .btn-shine {
   display: flex;
   justify-content: flex-end;
-  margin-right: 8rem;
+  margin-right: 5%;
   font-size: 5rem;
   font-weight: 800;
   color: #20bcf7;
@@ -33,13 +29,13 @@
   background-position: 0;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* animation: shine 3s infinite linear; */
+  animation: shine 3s infinite linear;
   animation-fill-mode: forwards;
   white-space: nowrap;
 }
-/* @keyframes shine {
+@keyframes shine {
   0% {
-    background-position: 600px;
+    background-position: 300px;
   }
 
   50% {
@@ -47,21 +43,15 @@
   }
 
   100% {
-    background-position: 1500px;
+    background-position: 1800px;
   }
-} */
-
-.aboutContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.imgButton {
+.image-text-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .me {
@@ -73,12 +63,13 @@
   color: white;
   text-decoration: none;
   font-weight: 300;
-  padding: 1rem 2rem;
+  padding: 20px 40px;
   transition: all 0.2s;
   cursor: pointer;
   background: #9b62e2;
   border-style: none;
   border-radius: 15px;
+  z-index: 2;
 }
 
 .btn:hover {
@@ -87,7 +78,7 @@
 }
 
 .aboutText {
-  width: 30rem;
+  width: 30%;
   text-align: left;
 }
 
