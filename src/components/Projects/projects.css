@@ -1,8 +1,7 @@
 .projects {
-  height: 75vh;
-
+  height: 65vh;
   /* background-color: darkgreen; */
-  padding: 2rem;
+  padding: 80px;
 }
 
 .flexContainer {
@@ -38,9 +37,15 @@
   font-weight: 300;
   text-align: center;
 }
-.project img {
-  width: 12rem;
-  height: 12rem;
+
+.project {
+  width: 15%;
+  margin: 1rem;
+  overflow: hidden;
+}
+.item img {
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
   z-index: 1;
   /* border: black solid 1px; */
@@ -49,12 +54,6 @@
   background-color: rgb(245, 204, 242);
   opacity: 0.2;
   z-index: 0;
-}
-
-.project {
-  width: 12.5rem;
-  margin: 1rem;
-  overflow: hidden;
 }
 
 a {

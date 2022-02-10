@@ -1,12 +1,43 @@
 .topbar {
   background-color: #ef5fb4;
-  height: 4rem;
+  height: 80px;
   position: fixed;
   width: 100%;
   z-index: 2;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+
+  /* background-color: yellowgreen; */
+}
+
+.logo {
+  width: 70px;
+  display: flex;
+  /* justify-content: flex-start; */
+  margin-left: 20px;
+  animation: rotation 2s linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.navbar {
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -20px;
+  /* flex-direction: row; */
+  /* background-color: rgb(106, 106, 35); */
 }
 
 .links {
@@ -14,9 +45,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  /* background-color: beige; */
 }
 
 .links a {
   text-decoration: none;
   padding-right: 2rem;
+  font-size: 1.3rem;
 }

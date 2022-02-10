@@ -46,7 +46,7 @@ const About = () => {
         <div className="btnAnimation">
           <div className="lying" ref={container}></div>
           <a href={pdf} download="Iolanta_Scheifel" className="btn">
-            Download CV
+            DOWNLOAD CV
           </a>
         </div>
       </div>

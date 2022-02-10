@@ -29,23 +29,25 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
-      <h1>Skills</h1>
+      <h1 className="skills-name">Skills</h1>
       <div className="skillsContainer">
-        <div className="iconsLeft">
-          <img src={react} alt="react" className="icon" />
-          <img src={js} alt="js" className="icon" />
-          <img src={html} alt="html" className="icon" />
-          <img src={css} alt="css" className="icon" />
-          <img src={ts} alt="ts" className="icon" />
+        <div className="icons">
+          <div className="iconsLeft">
+            <img src={react} alt="react" className="icon" />
+            <img src={js} alt="js" className="icon" />
+            <img src={html} alt="html" className="icon" />
+            <img src={css} alt="css" className="icon" />
+            <img src={ts} alt="ts" className="icon" />
+          </div>
+          <div className="iconsRight">
+            <img src={sass} alt="sass" className="icon" />
+            <img src={git} alt="git" className="icon" />
+            <img src={github} alt="github" className="icon" />
+            <img src={figma} alt="figma" className="icon" />
+            <img src={ps} alt="ps" className="icon" />
+          </div>
         </div>
         <div className="lottie" ref={container}></div>
-        <div className="iconsRight">
-          <img src={sass} alt="sass" className="icon" />
-          <img src={git} alt="git" className="icon" />
-          <img src={github} alt="github" className="icon" />
-          <img src={figma} alt="figma" className="icon" />
-          <img src={ps} alt="ps" className="icon" />
-        </div>
       </div>
     </div>
   );
