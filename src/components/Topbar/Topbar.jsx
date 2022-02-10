@@ -10,7 +10,7 @@ const Topbar = () => {
         <img src={logo} alt="logo" className="logo" />
       </div>
       <div className="navbar">
-        <div className="links">
+        {/* <div className="links">
           <a href="#intro">
             <p>HOME</p>
           </a>
@@ -26,9 +26,10 @@ const Topbar = () => {
           <a href="#contacts">
             <p>CONTACTS</p>
           </a>
-        </div>
+        </div> */}
+        <h1>PORTFOLIO</h1>
       </div>{" "}
-      <div></div>
+      <div>icons</div>
     </div>
   );
 };

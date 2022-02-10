@@ -10,7 +10,7 @@
   /* background-color: aqua; */
 }
 
-.arrows {
+.arrows-container {
   position: absolute;
   left: 3%;
   display: flex;
@@ -30,12 +30,9 @@
     transform: translateY(0%);
   }
 }
-
-.arrows img {
-  height: 3rem;
-  margin-bottom: 1rem;
+.arrows {
+  width: 150px;
 }
-
 .introText {
   display: flex;
   justify-content: center;

@@ -9,17 +9,21 @@
   align-items: center;
   display: flex;
   justify-content: flex-start;
-  margin-left: 5rem;
+  margin-left: 20px;
+  /* background-color: #9b62e2; */
 }
 
 .lottieProjects {
-  width: 12rem;
+  width: 150px;
 }
 
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  /* background-color: #ef5fb4; */
+  width: 70%;
+  margin-left: 13px;
 }
 
 .item {
@@ -39,17 +43,18 @@
 }
 
 .project {
-  width: 15%;
+  width: 300px;
+  height: 300px;
   margin: 1rem;
   overflow: hidden;
+  background-color: aqua;
 }
 .item img {
-  min-width: 100%;
-  min-height: 100%;
+  height: 300px;
   object-fit: cover;
   z-index: 1;
-  /* border: black solid 1px; */
 }
+
 .project img:hover {
   background-color: rgb(245, 204, 242);
   opacity: 0.2;
@@ -63,7 +68,7 @@ a {
 
 .projectText {
   color: #ef5fb4;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(to right, #ef5fb4 0, #9b62e2 30%, #ef5fb4 100%);

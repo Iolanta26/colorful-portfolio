@@ -10,7 +10,8 @@
   align-items: center;
 }
 
-.skills-name {
+.skillsName {
+  /* color: #2af4d4; */
   font-size: 5rem;
   display: flex;
   justify-content: flex-end;
@@ -18,28 +19,14 @@
   margin-right: 5%;
   font-size: 5rem;
   font-weight: 800;
-  color: #20bcf7;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #20bcf7 0, #9b62e2 50%, #20bcf7 100%);
+  background: linear-gradient(to right, #9b62e2 90%, #2af4d4 95%, #9b62e2 100%);
   background-position: 0;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradients 3s infinite linear;
+  /* animation: gradients 3s infinite linear;
   animation-fill-mode: forwards;
-  white-space: nowrap;
-}
-@keyframes shine {
-  0% {
-    background-position: 300px;
-  }
-
-  50% {
-    background-position: 1000px;
-  }
-
-  100% {
-    background-position: 1800px;
-  }
+  white-space: nowrap; */
 }
 
 .lottie {

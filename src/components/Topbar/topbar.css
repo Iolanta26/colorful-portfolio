@@ -40,16 +40,16 @@
   /* background-color: rgb(106, 106, 35); */
 }
 
-.links {
+/* .links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  /* background-color: beige; */
-}
+  
+} */
 
-.links a {
+/* .links a {
   text-decoration: none;
   padding-right: 2rem;
   font-size: 1.3rem;
-}
+} */

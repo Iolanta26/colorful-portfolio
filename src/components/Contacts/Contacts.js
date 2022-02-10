@@ -5,7 +5,7 @@ import "./contacts.css";
 const Contacts = () => {
   return (
     <div className="contacts" id="contacts">
-      This is Contacts
+      <h1>Contact Me</h1>
     </div>
   );
 };
