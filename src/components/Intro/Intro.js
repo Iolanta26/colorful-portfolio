@@ -1,9 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect";
 import lottie from "lottie-web";
-// import green from "./green.png";
-// import pink from "./pink.png";
-// import purple from "./purple.png";
 import "./intro.css";
 
 const Intro = () => {

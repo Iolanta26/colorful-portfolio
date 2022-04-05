@@ -29,7 +29,10 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
-      <h1 className="skillsName">Skills</h1>
+      <div className="skills-name-container">
+        <div className="lottie" ref={container}></div>
+        <h1 className="skillsName">Skills</h1>
+      </div>
       <div className="skillsContainer">
         <div className="icons">
           <div className="iconsLeft">
@@ -47,8 +50,7 @@ const Skills = () => {
             <img src={ps} alt="ps" className="icon" />
           </div>
         </div>
-        <div className="lottie" ref={container}></div>
-      </div>
+      </div>{" "}
     </div>
   );
 };

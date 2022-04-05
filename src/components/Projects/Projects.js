@@ -1,6 +1,3 @@
-import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
-
 import customhook from "./pictures/customhook.jpg";
 import speedgame from "./pictures/speedgame.jpg";
 import recipe from "./pictures/recipe.jpg";
@@ -10,23 +7,10 @@ import food_order from "./pictures/food-order.png";
 import "./projects.css";
 
 const Projects = () => {
-  const container = useRef(null);
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./projects.json"),
-    });
-  });
-
   return (
     <div className="projects" id="projects">
       <div className="flexContainer">
         <h1 className="projectText">Projects</h1>
-        <div className="lottieProjects" ref={container}></div>
       </div>
       <div className="projectsContainer">
         <div className="project">

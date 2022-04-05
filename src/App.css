@@ -3,11 +3,13 @@
 }
 body {
   height: fit-content;
+  background-color: #081544;
 }
 
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .section {

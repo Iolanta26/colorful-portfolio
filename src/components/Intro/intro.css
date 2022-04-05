@@ -1,7 +1,4 @@
 .intro {
-  background: url("background.png") left top;
-  background-repeat: no-repeat;
-  background-size: 90rem 35rem;
   height: calc(110vh - 4rem);
 
   display: flex;

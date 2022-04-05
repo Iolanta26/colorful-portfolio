@@ -1,112 +1,85 @@
 .about {
   height: 70vh;
-  /* background-color: crimson; */
-
-  padding: 80px;
-}
-
-.btnAnimation {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.lying {
-  width: 200px;
-  max-height: 123px;
-}
-
-.btn-shine {
+.aboutContainer {
   display: flex;
   justify-content: center;
-  font-size: 5rem;
-  font-weight: 800;
-  margin-bottom: 50px;
-  color: #20bcf7;
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #20bcf7 0, #9b62e2 50%, #20bcf7 100%);
-  background-position: 0;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
-  animation-fill-mode: forwards;
-  white-space: nowrap;
-}
-@keyframes shine {
-  0% {
-    background-position: 300px;
-  }
-
-  50% {
-    background-position: 1000px;
-  }
-
-  100% {
-    background-position: 1800px;
-  }
+  align-items: center;
+  background-color: rgba(41, 54, 116, 0.8);
+  border-radius: 15px;
+  width: 800px;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
 }
 
-.image-text-container {
+.upper-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  margin-bottom: 0px;
+}
+
+.social-bar {
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-.me {
-  width: 20rem;
-  margin: 2rem;
+.social-icon {
+  padding: 10px;
+}
+
+.line {
+  width: 50px;
+  height: 1px;
+  border: solid 1px white;
+  margin: 10px;
+}
+
+.downloadButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.lying {
+  width: 200px;
+  position: absolute;
+  top: -122px;
+}
+
+.aboutName {
+  font-size: 80px;
+  font-weight: 200;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
-  color: white;
   text-decoration: none;
   font-weight: 300;
   padding: 20px 40px;
   transition: all 0.2s;
   cursor: pointer;
-  background: #9b62e2;
+  background: #fde351;
   border-style: none;
   border-radius: 15px;
   z-index: 1;
 }
 
 .btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.aboutText {
-  width: 30%;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.sunContainer {
-  /* background-color: brown; */
-  width: 18%;
-  position: absolute;
-  top: 160%;
-  right: 0%;
-  overflow: hidden;
-}
-
-.sun {
-  width: 100%;
-  z-index: 1;
-  position: relative;
-  right: -40%;
-  top: 150%;
-  /* background-color: blueviolet; */
-  animation: rotate 10s infinite ease-in-out;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  transform: translateY(4px);
+  box-shadow: 0 10px 20px rgba(176, 172, 66, 0.3);
 }

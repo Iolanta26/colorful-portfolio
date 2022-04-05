@@ -1,3 +1,19 @@
 .contacts {
   height: 60vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-name {
+  font-size: 80px;
+  font-weight: 200;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.mail {
+  width: 100px;
 }

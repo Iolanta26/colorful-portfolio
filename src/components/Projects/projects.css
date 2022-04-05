@@ -67,28 +67,8 @@ a {
 }
 
 .projectText {
-  color: #ef5fb4;
-  font-size: 5rem;
-  font-weight: 500;
+  color: white;
+  font-size: 80px;
+  font-weight: 200;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #ef5fb4 0, #9b62e2 30%, #ef5fb4 100%);
-  background-position: 0;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: grad 3s infinite linear;
-  animation-fill-mode: forwards;
-  white-space: nowrap;
 }
-/* @keyframes grad {
-  0% {
-    background-position: 0px;
-  }
-
-  50% {
-    background-position: 300px;
-  }
-
-  100% {
-    background-position: 1000px;
-  }
-} */
