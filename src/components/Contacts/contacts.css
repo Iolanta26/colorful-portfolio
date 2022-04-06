@@ -2,7 +2,6 @@
   height: 60vh;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -13,7 +12,59 @@
   color: white;
   font-family: "Poppins", sans-serif;
 }
+.contact-info-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.contact-mail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.info {
+  margin: 25px;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.contact-phone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.copy-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-btns button {
+  margin: 30px;
+  background: #fde351;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
 
 .mail {
-  width: 100px;
+  width: 50px;
+  margin: 20px;
+}
+
+.phone {
+  width: 50px;
+  margin: 20px;
 }

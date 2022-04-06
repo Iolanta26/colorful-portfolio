@@ -1,35 +1,28 @@
-import lottie from "lottie-web";
-import { useEffect, useRef } from "react";
-
 import "./contacts.css";
 
+import email from "./email.svg";
+import phone from "./phone.svg";
+
 const Contacts = () => {
-  const container = useRef(null);
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./email.json"),
-    });
-  });
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./phone_icon.json"),
-    });
-  });
-
   return (
     <div className="contacts" id="contacts">
       <h1 className="contact-name">Let's talk</h1>
-      <div className="mail" ref={container}></div>
+      <div className="contact-info-container">
+        <div className="contact-info-wrapper">
+          <div className="contact-mail">
+            <img className="mail" src={email} alt="" />
+            <p className="info">iolanta.scheifel@gmail.com</p>
+          </div>
+          <div className="contact-phone">
+            <img className="phone" src={phone} alt="" />
+            <p className="info">+3584456000</p>
+          </div>
+        </div>
+        <div className="copy-btns">
+          <button>Copy</button>
+          <button>Copy</button>
+        </div>
+      </div>
     </div>
   );
 };

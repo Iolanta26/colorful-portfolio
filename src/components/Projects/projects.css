@@ -1,20 +1,15 @@
 .projects {
-  height: 65vh;
-  /* background-color: darkgreen; */
-  padding: 80px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .flexContainer {
   display: flex;
-  align-items: center;
-  display: flex;
   justify-content: flex-start;
-  margin-left: 20px;
-  /* background-color: #9b62e2; */
-}
-
-.lottieProjects {
-  width: 150px;
+  width: 1300px;
 }
 
 .projectsContainer {
@@ -22,8 +17,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   /* background-color: #ef5fb4; */
-  width: 70%;
-  margin-left: 13px;
+  width: 1300px;
 }
 
 .item {
@@ -42,13 +36,53 @@
   text-align: center;
 }
 
-.project {
-  width: 300px;
+.project_first {
+  width: 450px;
   height: 300px;
-  margin: 1rem;
+  margin: 15px 15px 10px 0;
   overflow: hidden;
   background-color: aqua;
 }
+
+.project_second {
+  width: 300px;
+  height: 300px;
+  margin: 15px 15px 10px 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.project_third {
+  width: 450px;
+  height: 300px;
+  margin: 15px 15px 10px 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.project_fourth {
+  width: 400px;
+  height: 300px;
+  margin: 15px 15px 10px 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+.project_fifth {
+  width: 500px;
+  height: 300px;
+  margin: 15px 15px 10px 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.project_sixth {
+  width: 300px;
+  height: 300px;
+  margin: 15px 15px 10px 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
 .item img {
   height: 300px;
   object-fit: cover;
