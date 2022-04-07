@@ -29,8 +29,8 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
+      <div className="lottie" ref={container}></div>
       <div className="skills-name-container">
-        <div className="lottie" ref={container}></div>
         <h1 className="skillsName">Skills</h1>
       </div>
       <div className="skillsContainer">
