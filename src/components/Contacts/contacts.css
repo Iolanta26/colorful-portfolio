@@ -52,11 +52,20 @@
 
 .copy-btns button {
   margin: 30px;
+}
+
+.copy-button {
   background: #fde351;
   border-style: none;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 8px 20px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.copy-button:disabled {
+  background: rgba(41, 54, 116, 0.5);
+  color: white;
 }
 
 .mail {
