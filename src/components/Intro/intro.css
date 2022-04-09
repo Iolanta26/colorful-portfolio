@@ -1,9 +1,10 @@
 .intro {
-  height: calc(110vh - 4rem);
+  height: calc(100vh - 4rem);
 
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   /* background-color: aqua; */
 }
 
@@ -38,6 +39,5 @@
 }
 
 .hello {
-  color: black;
   font-size: 3rem;
 }

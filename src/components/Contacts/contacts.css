@@ -1,12 +1,20 @@
 .contacts {
-  height: 60vh;
+  height: 50vh;
   color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+
+.yellow-group {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 .contact-name {
+  margin-top: 20px;
   font-size: 80px;
   font-weight: 200;
   color: white;

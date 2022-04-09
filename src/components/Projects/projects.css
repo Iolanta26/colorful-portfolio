@@ -4,6 +4,25 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+}
+
+.line-blue {
+  position: absolute;
+  left: 0px;
+  top: -170px;
+}
+
+.transparent {
+  position: absolute;
+  right: 0px;
+  bottom: -250px;
+}
+
+.green {
+  position: absolute;
+  right: 0px;
+  bottom: 60px;
 }
 
 .flexContainer {

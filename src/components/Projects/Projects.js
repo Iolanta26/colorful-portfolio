@@ -3,12 +3,18 @@ import speedgame from "./pictures/speedgame.jpg";
 import recipe from "./pictures/recipe.jpg";
 import photographer from "./pictures/photographer.png";
 import food_order from "./pictures/food-order.png";
+import lineBlue from "./lineBlue.svg";
+import transparent from "./transparent.svg";
+import green from "./green.svg";
 
 import "./projects.css";
 
 const Projects = () => {
   return (
     <div className="projects" id="projects">
+      <img src={lineBlue} alt="" className="line-blue" />
+      <img src={transparent} alt="" className="transparent" />
+      <img src={green} alt="" className="green" />
       <div className="flexContainer">
         <h1 className="projectText">Projects</h1>
       </div>

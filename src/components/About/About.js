@@ -7,6 +7,8 @@ import "./about.css";
 
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
+import purple from "./purple.svg";
+import bigline from "./bigline.svg";
 
 const About = () => {
   const container = useRef(null);
@@ -23,12 +25,26 @@ const About = () => {
 
   return (
     <div className="about" id="about">
+      <img src={purple} alt="" className="purple" />
+      <img src={bigline} alt="" className="bigline" />
       <div className="upper-container">
         <div className="aboutName">About</div>
         <div className="social-bar">
           <div className="line"></div>
-          <img src={linkedin} alt="" className="social-icon" />
-          <img src={github} alt="" className="social-icon" />
+          <a
+            href="https://www.linkedin.com/in/iolanta-scheifel/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="" className="social-icon" />
+          </a>
+          <a
+            href="https://github.com/Iolanta26"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={github} alt="" className="social-icon" />
+          </a>
           <div className="line"></div>
         </div>
       </div>
