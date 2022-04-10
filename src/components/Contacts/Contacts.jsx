@@ -50,6 +50,10 @@ const Contacts = () => {
           </button>
         </div>
       </div>
+      <div className="location">
+        Located in Aalborg, Denmark. Open for remote work. Relocation is
+        possible as well.{" "}
+      </div>
     </div>
   );
 };

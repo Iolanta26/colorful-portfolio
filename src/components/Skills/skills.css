@@ -23,9 +23,11 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(41, 54, 116, 0.8);
-  padding: 90px 40px;
+  padding: 100px 100px;
   border-radius: 15px;
   z-index: 0;
+  -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
+  box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
 }
 
 .skills-name-container {
@@ -33,7 +35,7 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
-  width: 1630px;
+  width: 1500px;
   height: 120px;
   z-index: 1;
 }
@@ -47,10 +49,10 @@
 
 .icon {
   width: 80px;
-  margin: 40px;
+  margin: 20px;
 }
 
 .icon-next {
   width: 120px;
-  margin: 40px;
+  margin: 20px;
 }

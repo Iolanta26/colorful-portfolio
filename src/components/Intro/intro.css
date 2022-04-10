@@ -39,5 +39,21 @@
 }
 
 .hello {
-  font-size: 3rem;
+  font-size: 80px;
+  font-weight: 200;
+}
+
+.there {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.iAm {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.iolanta {
+  font-size: 50px;
+  font-weight: 200;
 }

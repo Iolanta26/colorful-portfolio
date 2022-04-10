@@ -9,6 +9,8 @@ import linkedin from "./linkedin.svg";
 import github from "./github.svg";
 import purple from "./purple.svg";
 import bigline from "./bigline.svg";
+import studies from "./studies.svg";
+import work from "./work.svg";
 
 const About = () => {
   const container = useRef(null);
@@ -48,15 +50,28 @@ const About = () => {
           <div className="line"></div>
         </div>
       </div>
-      <div className="aboutContainer">
-        <div className="aboutText">
+      <div className="containers">
+        <div className="small-containers">
+          <div className="about-small-container">
+            <div className="span">
+              <img src={studies} alt="" className="studies" />
+              <span>01.2021 - 05.2022</span>{" "}
+            </div>
+            Full Stack Web Development programm at Business College Helsinki
+          </div>
+          <div className="about-small-container">
+            <div className="span">
+              <img src={work} alt="" className="studies" />
+              <span>02.2022 - present</span>{" "}
+            </div>
+            Frontend Developer Internship at Smoothweb.cz
+          </div>
+        </div>
+        <div className="about-container">
           <p>
             Frontend is my passion. I got interested in Software Development in
             early 2019.
             <br />
-            <br />I have completed my Full Stack Web Development studies at
-            Business College Helsinki and am looking for a Junior Frontend
-            Developer job. <br />
             <br />
             I work mainly with Javascript and React. And I have a huge
             experience in digital design and various related apps.

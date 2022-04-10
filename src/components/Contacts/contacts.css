@@ -1,5 +1,5 @@
 .contacts {
-  height: 50vh;
+  height: 70vh;
   color: white;
   display: flex;
   align-items: center;
@@ -11,6 +11,7 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 0;
 }
 
 .contact-name {
@@ -31,6 +32,7 @@
   align-items: center;
   flex-direction: row;
   margin-top: 50px;
+  z-index: 2;
 }
 
 .contact-mail {
@@ -84,4 +86,11 @@
 .phone {
   width: 50px;
   margin: 20px;
+}
+
+.location {
+  font-size: 20px;
+  font-weight: 200;
+  width: 300px;
+  margin-top: 100px;
 }
