@@ -41,7 +41,7 @@ const About = () => {
             <img src={linkedin} alt="" className="social-icon" />
           </a>
           <a
-            href="https://github.com/Iolanta26"
+            href="https://github.com/iolantascheifel"
             target="_blank"
             rel="noreferrer"
           >

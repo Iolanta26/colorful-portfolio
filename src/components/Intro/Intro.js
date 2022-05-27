@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import Typewriter from "typewriter-effect";
-// import lottie from "lottie-web";
 import "./intro.css";
 
 const Intro = () => {
@@ -21,18 +19,22 @@ const Intro = () => {
         {/* <div className="arrows" ref={contai ner}></div> */}
       </div>
       <div className="introText">
-        <div className="hello">HELLO</div>
-        <div className="there">there!</div>
+        <div className="title">
+          <div className="hello">HELLO</div>
+          <div className="there">there!</div>
+        </div>
         <div className="iAm">I'm</div>
         <div className="iolanta">Iolanta Scheifel</div>
-
-        <Typewriter
+        <div className="frontend">Frontend Developer</div>
+        {/* <Typewriter
+          className="type"
           options={{
             strings: ["Frontend Developer"],
             autoStart: true,
+            delay: 100,
             loop: true,
           }}
-        />
+        /> */}
       </div>
     </div>
   );

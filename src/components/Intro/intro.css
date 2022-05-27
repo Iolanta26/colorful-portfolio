@@ -28,6 +28,7 @@
     transform: translateY(0%);
   }
 }
+
 .arrows {
   width: 150px;
 }
@@ -38,6 +39,16 @@
   flex-direction: column;
 }
 
+.title {
+  margin-bottom: 70px;
+}
+.frontend {
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+  color: #20bcf7;
+  padding-top: 40px;
+}
+
 .hello {
   font-size: 80px;
   font-weight: 200;
@@ -46,14 +57,16 @@
 .there {
   font-size: 50px;
   font-weight: 200;
+  margin-left: 130px;
+  margin-top: -30px;
 }
 
 .iAm {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 200;
 }
 
 .iolanta {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 200;
 }
