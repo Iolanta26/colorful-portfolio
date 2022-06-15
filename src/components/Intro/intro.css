@@ -29,14 +29,24 @@
   }
 }
 
-.arrows {
-  width: 150px;
+.myphoto {
+  margin-left: 50px;
 }
+
+.me {
+  width: 670px;
+  z-index: 15;
+  position: absolute;
+  top: 170px;
+  right: 40px;
+}
+
 .introText {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 20;
 }
 
 .title {
@@ -69,4 +79,10 @@
 .iolanta {
   font-size: 30px;
   font-weight: 200;
+}
+
+.byMe {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 100;
 }

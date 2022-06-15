@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
-import pdf from "./CV.pdf";
+import pdf from "./CV-Iolanta_Scheifel.pdf";
 
 import "./about.css";
 
@@ -57,28 +57,26 @@ const About = () => {
               <img src={studies} alt="" className="studies" />
               <span>01.2021 - 05.2022</span>{" "}
             </div>
-            Full Stack Web Development programm at Business College Helsinki
+            Full Stack Web Development program at Business College Helsinki
           </div>
           <div className="about-small-container">
             <div className="span">
               <img src={work} alt="" className="studies" />
-              <span>02.2022 - present</span>{" "}
+              <span>02.2022 - 07.2022</span>{" "}
             </div>
             Frontend Developer Internship at Smoothweb.cz
           </div>
         </div>
         <div className="about-container">
           <p>
-            Frontend is my passion. I got interested in Software Development in
-            early 2019.
+            I got interested in Software Development in early 2019. Coding was
+            my hobby, which became a desired work.
             <br />
             <br />
-            I work mainly with Javascript and React. And I have a huge
-            experience in digital design and various related apps.
+            I've been concentrating on Frontend, but I would like to try some
+            new technologies and be a Software Developer with wide knowledge.
             <br />
-            <br />
-            My skills and goal-oriented character can make magic at the working
-            place. Do not hesitate to call me for the interview.
+            <br />I work mainly with React Js and Next Js.
           </p>
         </div>
       </div>{" "}

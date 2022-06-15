@@ -51,8 +51,9 @@ const Contacts = () => {
         </div>
       </div>
       <div className="location">
-        Located in Aalborg, Denmark. Open for remote work. Relocation is
-        possible as well.{" "}
+        I am located in Aalborg, Denmark.
+        <br />
+        Open for remote work.
       </div>
     </div>
   );

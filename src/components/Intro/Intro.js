@@ -1,23 +1,11 @@
-import React, { useEffect, useRef } from "react";
 import "./intro.css";
 
-const Intro = () => {
-  const container = useRef(null);
+import myImage from "./Vector .png";
+// import yellowBack from "./yellowBack.svg";
 
-  // useEffect(() => {
-  //   lottie.loadAnimation({
-  //     container: container.current,
-  //     renderer: "svg",
-  //     loop: true,
-  //     autoplay: true,
-  //     animationData: require("./arrows.json"),
-  //   });
-  // });
+const Intro = () => {
   return (
     <div className="intro" id="intro">
-      <div className="arrows-container">
-        {/* <div className="arrows" ref={contai ner}></div> */}
-      </div>
       <div className="introText">
         <div className="title">
           <div className="hello">HELLO</div>
@@ -26,15 +14,10 @@ const Intro = () => {
         <div className="iAm">I'm</div>
         <div className="iolanta">Iolanta Scheifel</div>
         <div className="frontend">Frontend Developer</div>
-        {/* <Typewriter
-          className="type"
-          options={{
-            strings: ["Frontend Developer"],
-            autoStart: true,
-            delay: 100,
-            loop: true,
-          }}
-        /> */}
+        <div className="byMe">Portfolio is coded and designed by me</div>
+      </div>
+      <div className="myphoto">
+        <img src={myImage} alt="me" className="me" />
       </div>
     </div>
   );
