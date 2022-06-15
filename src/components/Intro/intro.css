@@ -1,10 +1,9 @@
 .intro {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  /* background-color: aqua; */
 }
 
 .arrows-container {
@@ -33,11 +32,19 @@
 }
 
 .me {
-  width: 600px;
+  width: 500px;
   z-index: 15;
   position: absolute;
-  top: 170px;
-  right: 40px;
+  top: 20%;
+  right: 5%;
+}
+
+@media only screen and (min-width: 1501px) {
+  .me {
+    width: 600px;
+    top: 35%;
+    right: 5%;
+  }
 }
 
 .introText {
@@ -49,22 +56,22 @@
 }
 
 .title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .frontend {
   font-family: "Indie Flower", cursive;
-  font-size: 40px;
+  font-size: 30px;
   color: #20bcf7;
   padding-top: 40px;
 }
 
 .hello {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 200;
 }
 
 .there {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 200;
   margin-left: 130px;
   margin-top: -30px;

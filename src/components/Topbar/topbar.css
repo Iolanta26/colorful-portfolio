@@ -36,13 +36,9 @@
 .links a {
   text-decoration: none;
   padding-right: 40px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   color: white;
-}
-
-.social-topbar {
-  /* margin-right: 10px; */
 }
 
 .social-icon-topbar {

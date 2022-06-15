@@ -1,5 +1,5 @@
 .contacts {
-  height: 80vh;
+  height: 70vh;
   color: white;
   display: flex;
   align-items: center;
@@ -16,11 +16,12 @@
 
 .contact-name {
   margin-top: 20px;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 200;
   color: white;
   font-family: "Poppins", sans-serif;
 }
+
 .contact-info-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -44,7 +45,7 @@
 
 .info {
   margin: 25px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -61,16 +62,16 @@
 }
 
 .copy-btns button {
-  margin: 30px;
+  margin: 25px 0;
 }
 
 .copy-button {
   background: #fde351;
   border-style: none;
   border-radius: 5px;
-  padding: 8px 20px;
+  padding: 5px 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .copy-button:disabled {
@@ -79,18 +80,19 @@
 }
 
 .mail {
-  width: 50px;
+  width: 30px;
   margin: 20px;
 }
 
 .phone {
-  width: 50px;
+  width: 30px;
   margin: 20px;
 }
 
 .location {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
-  width: 350px;
-  margin-top: 100px;
+  text-align: center;
+
+  margin-top: 150px;
 }

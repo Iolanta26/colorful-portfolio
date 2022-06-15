@@ -1,5 +1,5 @@
 .skills {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,10 +11,11 @@
   position: absolute;
   left: 0px;
   bottom: -300px;
+  width: 20rem;
 }
 
 .lottie {
-  width: 400px;
+  width: 200px;
   margin-left: 15px;
 }
 
@@ -23,37 +24,43 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(41, 54, 116, 0.8);
-  padding: 100px 100px;
+  padding: 60px 40px;
   border-radius: 15px;
   z-index: 0;
   -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
   box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
 }
 
-.skills-name-container {
+.skills-main-container {
+  background-color: #0f191d;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+
+.skills-name-wrapper {
+  display: flex;
   align-items: center;
-  flex-direction: row;
-  width: 1500px;
-  height: 120px;
+  position: absolute;
+  top: -110px;
+  right: -100px;
   z-index: 1;
 }
 
 .skillsName {
   color: white;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
   color: #20bcf7;
 }
 
 .icon {
-  width: 80px;
+  width: 50px;
   margin: 20px;
 }
 
 .icon-next {
-  width: 120px;
+  width: 90px;
   margin: 20px;
 }
