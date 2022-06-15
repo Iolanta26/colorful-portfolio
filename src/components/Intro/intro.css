@@ -34,10 +34,10 @@
 }
 
 .me {
-  width: 670px;
+  width: 650px;
   z-index: 15;
   position: absolute;
-  top: 170px;
+  top: 140px;
   right: 40px;
 }
 
