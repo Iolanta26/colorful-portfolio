@@ -1,6 +1,6 @@
 import "./intro.css";
 
-import myImage from "./me.png";
+import myImage from "./Vector.png";
 // import yellowBack from "./yellowBack.svg";
 
 const Intro = () => {
