@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
-import pdf from "./CV-Iolanta_Scheifel.pdf";
+import pdf from "./CV.pdf";
 
 import "./about.css";
 
@@ -67,8 +67,8 @@ const About = () => {
             Frontend Developer Internship at Smoothweb.cz
           </div>
         </div>
-        <div className="about-container">
-          <p>
+
+        {/* <p>
             I got interested in Software Development in early 2019. Coding was
             my hobby, which became a desired work.
             <br />
@@ -77,12 +77,11 @@ const About = () => {
             new technologies and be a Software Developer with wide knowledge.
             <br />
             <br />I work mainly with React Js and Next Js.
-          </p>
-        </div>
+          </p> */}
       </div>{" "}
       <div className="downloadButtonContainer">
         <div className="lying" ref={container}></div>
-        <a href={pdf} download="Iolanta_Scheifel" className="btn">
+        <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
           DOWNLOAD CV
         </a>
       </div>
