@@ -55,14 +55,14 @@ const About = () => {
           <div className="about-small-container">
             <div className="span">
               <img src={studies} alt="" className="studies" />
-              <span>01.2021 - 05.2022</span>{" "}
+              <span>01.2021 - 07.2022</span> <span>1.7 years</span>
             </div>
             Full Stack Web Development program at Business College Helsinki
           </div>
           <div className="about-small-container">
             <div className="span">
               <img src={work} alt="" className="studies" />
-              <span>02.2022 - 07.2022</span>{" "}
+              <span>02.2022 - 07.2022</span> <span>6 months</span>
             </div>
             Frontend Developer Internship at Smoothweb.cz
           </div>
