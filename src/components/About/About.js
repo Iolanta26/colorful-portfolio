@@ -55,7 +55,7 @@ const About = () => {
           <div className="about-small-container">
             <div className="span">
               <img src={studies} alt="" className="studies" />
-              <span>01.2021 - 07.2022</span> <span>1.7 years</span>
+              <span>01.2021 - 06.2022</span> <span>1.7 years</span>
             </div>
             Full Stack Web Development program at Business College Helsinki
           </div>
