@@ -30,7 +30,7 @@ const Contacts = () => {
           </div>
           <div className="contact-phone">
             <img className="phone" src={phone} alt="" />
-            <p className="info">+4593804766</p>
+            <p className="info">+45 93804766</p>
           </div>
         </div>
         <div className="copy-btns">
@@ -44,7 +44,7 @@ const Contacts = () => {
           <button
             className="copy-button"
             disabled={phoneCopied}
-            onClick={() => setPhoneCopied("+3584456000")}
+            onClick={() => setPhoneCopied("+4593804766")}
           >
             {phoneCopied ? "Copied" : "Copy"}
           </button>

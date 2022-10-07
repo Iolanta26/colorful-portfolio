@@ -1,5 +1,5 @@
 .about {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,17 +10,10 @@
 
 .containers {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.small-containers {
-  display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  width: 600px;
+  gap: 5rem;
 }
 
 .purple {
@@ -39,37 +32,18 @@
   width: 15rem;
 }
 
-.about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(41, 54, 116, 0.3);
-  border-radius: 15px;
-  width: 600px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px 40px;
-  color: white;
-  font-size: 15px;
-  font-weight: 100;
-  z-index: 1;
-  position: relative;
-  -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
-  box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
-}
-
-.about-small-container {
+.info-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  position: relative;
+  overflow: hidden;
   background-color: rgba(41, 54, 116, 0.3);
   border-radius: 15px;
-  width: 290px;
-  height: 180px;
-  padding: 10px 20px;
+  width: 250px;
+  height: 300px;
   color: white;
   font-size: 15px;
   font-weight: 100;
@@ -78,21 +52,37 @@
   box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
 }
 
-.span {
-  top: -30px;
-  margin-top: 5px;
-  font-size: 18px;
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.7;
+.date {
+  position: absolute;
+  bottom: 125px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 100;
+  background-color: rgba(103, 110, 157, 0.8);
 }
 
-.studies {
-  width: 25px;
-  opacity: 0.7;
+.picture {
+  width: 100%;
+  position: absolute;
+  top: -100px;
+}
+
+.info-text {
+  position: absolute;
+  background-color: rgba(41, 54, 116, 1);
+  bottom: 0;
+  height: 125px;
+  padding: 10px 30px;
+  font-size: 14px;
+  color: #a1e6ff;
+}
+
+.duration {
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
 }
 
 .upper-container {
@@ -107,13 +97,13 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .social-icon {
   padding: 10px;
-  width: 50px;
+  width: 45px;
 }
 
 .line {
@@ -129,7 +119,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .lying {

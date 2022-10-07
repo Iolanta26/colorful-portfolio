@@ -60,14 +60,15 @@
 }
 .frontend {
   font-family: "Indie Flower", cursive;
-  font-size: 30px;
+  font-size: 28px;
   color: #20bcf7;
-  padding-top: 40px;
+  margin-top: 10px;
 }
 
 .hello {
   font-size: 60px;
   font-weight: 200;
+  color: #20bcf7;
 }
 
 .there {
@@ -78,12 +79,12 @@
 }
 
 .iAm {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 200;
 }
 
 .iolanta {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 200;
 }
 

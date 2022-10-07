@@ -4,6 +4,7 @@ import photographer from "./pictures/photographer.png";
 import food_order from "./pictures/food-order.png";
 import green from "./green.svg";
 import portugal from "./pictures/portugal.png";
+import dashboard from "./pictures/dashboard.png";
 
 import "./projects.css";
 
@@ -15,7 +16,7 @@ const Projects = () => (
     </div>
     <div className="projectsContainer">
       <a
-        href="https://portugal-app.netlify.app/Explore"
+        href="https://portugal-app.netlify.app/"
         target="_blank"
         rel="noreferrer"
         className="project"
@@ -24,6 +25,17 @@ const Projects = () => (
         <h2>Portugal in your pocket</h2>
         <h2>Mobile App</h2>
         <p>Created using Next Js, Context Api, Styled Components.</p>
+      </a>
+      <a
+        href="https://dashboard-iolanta-scheifel.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+        className="project"
+      >
+        <img src={dashboard} alt="portugal" />
+        <h2>Dashboard for Smarty</h2>
+        <h2>Web App</h2>
+        <p>Created using React Js, Context Api, SASS.</p>
       </a>
 
       <a

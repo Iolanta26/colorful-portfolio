@@ -9,8 +9,8 @@ import linkedin from "./linkedin.svg";
 import github from "./github.svg";
 import purple from "./purple.svg";
 import bigline from "./bigline.svg";
-import studies from "./studies.svg";
-import work from "./work.svg";
+import study from "./study.jpg";
+import work from "./work.jpg";
 
 const About = () => {
   const container = useRef(null);
@@ -51,38 +51,29 @@ const About = () => {
         </div>
       </div>
       <div className="containers">
-        <div className="small-containers">
-          <div className="about-small-container">
-            <div className="span">
-              <img src={studies} alt="" className="studies" />
-              <span>01.2021 - 06.2022</span> <span>1.7 years</span>
+        <div className="info-container">
+          <img src={study} alt="studying" className="picture" />
+          <span className="date">01.2021 - 06.2022</span>
+          <div className="info-text">
+            <span className="duration">1.7 years</span>
+            <div>
+              Full Stack Web Development program at Business College Helsinki
             </div>
-            Full Stack Web Development program at Business College Helsinki
-          </div>
-          <div className="about-small-container">
-            <div className="span">
-              <img src={work} alt="" className="studies" />
-              <span>02.2022 - 07.2022</span> <span>6 months</span>
-            </div>
-            Frontend Developer Internship at Smoothweb.cz
           </div>
         </div>
-
-        {/* <p>
-            I got interested in Software Development in early 2019. Coding was
-            my hobby, which became a desired work.
-            <br />
-            <br />
-            I've been concentrating on Frontend, but I would like to try some
-            new technologies and be a Software Developer with wide knowledge.
-            <br />
-            <br />I work mainly with React Js and Next Js.
-          </p> */}
-      </div>{" "}
+        <div className="info-container">
+          <img src={work} alt="working" className="picture" />
+          <span className="date">02.2022 - 07.2022</span>
+          <div className="info-text">
+            <span className="duration">6 months</span>
+            <div>Frontend Developer Internship at Smoothweb.cz</div>
+          </div>
+        </div>
+      </div>
       <div className="downloadButtonContainer">
         <div className="lying" ref={container}></div>
         <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
-          DOWNLOAD CV
+          DOWNLOAD MY RESUME
         </a>
       </div>
     </div>
