@@ -7,8 +7,6 @@ import "./about.css";
 
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
-import purple from "./purple.svg";
-import bigline from "./bigline.svg";
 import study from "./study.jpg";
 import work from "./work.jpg";
 
@@ -27,8 +25,6 @@ const About = () => {
 
   return (
     <div className="about" id="about">
-      <img src={purple} alt="" className="purple" />
-      <img src={bigline} alt="" className="bigline" />
       <div className="upper-container">
         <div className="aboutName">About</div>
         <div className="social-bar">

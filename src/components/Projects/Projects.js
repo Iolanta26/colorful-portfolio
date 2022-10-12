@@ -2,7 +2,6 @@ import speedgame from "./pictures/speedgame.jpg";
 import recipe from "./pictures/recipe.jpg";
 import photographer from "./pictures/photographer.png";
 import food_order from "./pictures/food-order.png";
-import green from "./green.svg";
 import portugal from "./pictures/portugal.png";
 import dashboard from "./pictures/dashboard.png";
 
@@ -10,9 +9,9 @@ import "./projects.css";
 
 const Projects = () => (
   <div className="projects" id="projects">
-    <img src={green} alt="" className="green" />
     <div className="flexContainer">
       <h1 className="projectText">Projects</h1>
+      <div className="project-text">Check out some of my work right here</div>
     </div>
     <div className="projectsContainer">
       <a

@@ -1,50 +1,47 @@
+#skills {
+  height: 100vh;
+}
+
 .skills {
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-}
-
-.group {
-  position: absolute;
-  left: 0px;
-  bottom: -300px;
-  width: 20rem;
 }
 
 .lottie {
-  width: 200px;
-  margin-left: 15px;
-}
-
-.skillsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(41, 54, 116, 0.8);
-  padding: 60px 40px;
-  border-radius: 15px;
-  z-index: 0;
-  -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
-  box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
+  width: 10rem;
+  margin-left: 10px;
 }
 
 .skills-main-container {
-  background-color: #0f191d;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: rgba(41, 54, 116, 0.8);
+  -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
+  box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
+  border-radius: 15px;
   position: relative;
 }
 
+.skills-icon-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  width: 70%;
+  padding-bottom: 60px;
+}
+
 .skills-name-wrapper {
+  position: absolute;
+  top: -90px;
+  right: 0px;
   display: flex;
   align-items: center;
-  position: absolute;
-  top: -110px;
-  right: -100px;
-  z-index: 1;
+  width: fit-content;
 }
 
 .skillsName {
@@ -61,6 +58,6 @@
 }
 
 .icon-next {
-  width: 90px;
+  width: 85px;
   margin: 20px;
 }

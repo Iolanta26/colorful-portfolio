@@ -4,8 +4,6 @@ import "./contacts.css";
 import email from "./email.svg";
 import phone from "./phone.svg";
 
-import yellowG from "./yellowGroup.svg";
-
 const Contacts = () => {
   const [emailCopied, setEmailCopied] = useState();
   const [phoneCopied, setPhoneCopied] = useState();
@@ -20,7 +18,6 @@ const Contacts = () => {
 
   return (
     <div className="contacts" id="contacts">
-      <img src={yellowG} alt="" className="yellow-group" />
       <h1 className="contact-name">Let's talk</h1>
       <div className="contact-info-container">
         <div className="contact-info-wrapper">

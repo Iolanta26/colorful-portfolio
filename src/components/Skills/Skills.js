@@ -16,8 +16,6 @@ import github from "./icons/github.png";
 import sc from "./icons/sc.png";
 import nextjs from "./icons/next-js.png";
 
-import group from "./group.svg";
-
 const Skills = () => {
   const container = useRef(null);
 
@@ -33,31 +31,24 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills">
-      <img src={group} alt="" className="group" />
       <div className="skills-main-container">
         <div className="skills-name-wrapper">
           <h1 className="skillsName">Skills</h1>
           <div className="lottie" ref={container}></div>
         </div>
-        <div className="skillsContainer">
-          <div className="icons">
-            <div className="iconsLeft">
-              <img src={react} alt="react" className="icon" />
-              <img src={js} alt="js" className="icon" />
-              <img src={html} alt="html" className="icon" />
-              <img src={css} alt="css" className="icon" />
-              <img src={ts} alt="ts" className="icon" />
-              <img src={nextjs} alt="nextjs" className="icon-next" />
-            </div>
-            <div className="iconsRight">
-              <img src={sass} alt="sass" className="icon" />
-              <img src={git} alt="git" className="icon" />
-              <img src={github} alt="github" className="icon" />
-              <img src={sc} alt="sc" className="icon" />
-              <img src={figma} alt="figma" className="icon" />
-              <img src={ps} alt="ps" className="icon" />
-            </div>
-          </div>
+        <div className="skills-icon-container">
+          <img src={react} alt="react" className="icon" />
+          <img src={js} alt="js" className="icon" />
+          <img src={html} alt="html" className="icon" />
+          <img src={css} alt="css" className="icon" />
+          <img src={ts} alt="ts" className="icon" />
+          <img src={nextjs} alt="nextjs" className="icon-next" />
+          <img src={sass} alt="sass" className="icon" />
+          <img src={git} alt="git" className="icon" />
+          <img src={github} alt="github" className="icon" />
+          <img src={sc} alt="sc" className="icon" />
+          <img src={figma} alt="figma" className="icon" />
+          <img src={ps} alt="ps" className="icon" />
         </div>
       </div>
     </div>
