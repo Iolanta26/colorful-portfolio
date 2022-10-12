@@ -16,7 +16,7 @@ const Intro = () => {
         <div className="byMe">Portfolio is coded and designed by me</div>
       </div>
       <div className="myphoto">
-        <img src={myImage} alt="me" className="me" />
+        <img src={myImage} alt="me" />
       </div>
     </div>
   );

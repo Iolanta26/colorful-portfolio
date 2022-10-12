@@ -14,7 +14,8 @@ import react from "./icons/atom.png";
 import figma from "./icons/figma.png";
 import github from "./icons/github.png";
 import sc from "./icons/sc.png";
-import nextjs from "./icons/next-js.png";
+// import nextjs from "./icons/next-js.png";
+import next from "./icons/next-js.svg";
 
 const Skills = () => {
   const container = useRef(null);
@@ -37,18 +38,54 @@ const Skills = () => {
           <div className="lottie" ref={container}></div>
         </div>
         <div className="skills-icon-container">
-          <img src={react} alt="react" className="icon" />
-          <img src={js} alt="js" className="icon" />
-          <img src={html} alt="html" className="icon" />
-          <img src={css} alt="css" className="icon" />
-          <img src={ts} alt="ts" className="icon" />
-          <img src={nextjs} alt="nextjs" className="icon-next" />
-          <img src={sass} alt="sass" className="icon" />
-          <img src={git} alt="git" className="icon" />
-          <img src={github} alt="github" className="icon" />
-          <img src={sc} alt="sc" className="icon" />
-          <img src={figma} alt="figma" className="icon" />
-          <img src={ps} alt="ps" className="icon" />
+          <div className="skill">
+            <img src={react} alt="react" className="icon" />
+            React Js
+          </div>
+          <div className="skill">
+            <img src={js} alt="js" className="icon" />
+            Javascript
+          </div>
+          <div className="skill">
+            <img src={html} alt="html" className="icon" />
+            HTML
+          </div>
+          <div className="skill">
+            <img src={css} alt="css" className="icon" />
+            CSS
+          </div>
+          <div className="skill">
+            <img src={ts} alt="ts" className="icon" />
+            Typescript
+          </div>
+          <div className="skill">
+            <img src={next} alt="nextjs" className="icon" />
+            Next Js
+          </div>
+          <div className="skill">
+            <img src={sass} alt="sass" className="icon" />
+            Sass
+          </div>
+          <div className="skill">
+            <img src={git} alt="git" className="icon" />
+            Git
+          </div>
+          <div className="skill">
+            <img src={github} alt="github" className="icon" />
+            Github
+          </div>
+          <div className="skill">
+            <img src={sc} alt="sc" className="icon" />
+            Styled Components
+          </div>
+          <div className="skill">
+            <img src={figma} alt="figma" className="icon" />
+            Figma
+          </div>
+          <div className="skill">
+            <img src={ps} alt="ps" className="icon" />
+            Photoshop
+          </div>
         </div>
       </div>
     </div>

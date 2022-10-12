@@ -7,25 +7,28 @@
   justify-content: center;
   align-items: center;
   color: white;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .intro {
+    flex-direction: column;
+  }
 }
 
 .myphoto {
   margin-left: 50px;
 }
 
-.me {
-  width: 500px;
-  z-index: 15;
-  position: absolute;
-  top: 20%;
-  right: 5%;
+.myphoto img {
+  width: 30rem;
 }
 
-@media only screen and (min-width: 1501px) {
-  .me {
-    width: 600px;
-    top: 27%;
-    right: 5%;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .myphoto img {
+    width: 20rem;
   }
 }
 

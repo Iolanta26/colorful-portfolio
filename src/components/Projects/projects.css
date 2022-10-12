@@ -17,12 +17,31 @@
   width: 70%;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .flexContainer {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
   width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .projectsContainer {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .project {
@@ -39,11 +58,20 @@
   overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .project {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .project-text {
   color: #ffffff;
   font-size: 14px;
   font-weight: 200;
   margin-bottom: 30px;
+  color: #20bcf7;
 }
 
 .project::before,
