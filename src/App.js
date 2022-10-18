@@ -1,28 +1,42 @@
 import Topbar from "./components/Topbar/Topbar";
-import Intro from "./components/Intro/Intro";
-import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
-import Contacts from "./components/Contacts/Contacts";
+import linkedin from "./components/Topbar/linkedin.svg";
+import github from "./components/Topbar/github.svg";
+import pdf from "./CV.pdf";
 
 import "./App.css";
-import { useState } from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  const [num, setNum] = useState(0);
-  const scrollHandle = (e) => {
-    setNum(e.target.scrollTop);
-  };
-
   return (
     <div className="app">
-      <div className="sections" onScroll={scrollHandle}>
-        <Topbar className="section" />
-        <Intro className="section" />
-        <About className="section" num={num} />
+      <div className="sections">
+        <Topbar />
+        <div className="buttons">
+          <button className="more-info-btn">MORE INFO</button>
+          <div className="social-bar">
+            <a
+              href="https://www.linkedin.com/in/iolanta-scheifel/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedin} alt="" className="social-icon" />
+            </a>
+            <a
+              href="https://github.com/iolantascheifel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={github} alt="" className="social-icon" />
+            </a>
+
+            <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
+              DOWNLOAD MY RESUME
+            </a>
+          </div>
+        </div>
         <Projects className="section" />
-        <Skills className="section" />
-        <Contacts className="section" />
+        <Footer />
       </div>
     </div>
   );

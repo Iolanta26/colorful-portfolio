@@ -1,12 +1,12 @@
 // import React, { useEffect, useRef } from "react";
 // import lottie from "lottie-web";
 
-import pdf from "./CV.pdf";
+// import pdf from "./CV.pdf";
 
 import "./about.css";
 
-import linkedin from "./linkedin.svg";
-import github from "./github.svg";
+// import linkedin from "./linkedin.svg";
+// import github from "./github.svg";
 import study from "./study.jpg";
 import work from "./work.jpg";
 
@@ -31,7 +31,7 @@ const About = ({ num }) => {
         <div className="aboutName">About</div>
         <div className="social-bar">
           <div className="line"></div>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/iolanta-scheifel/"
             target="_blank"
             rel="noreferrer"
@@ -44,7 +44,7 @@ const About = ({ num }) => {
             rel="noreferrer"
           >
             <img src={github} alt="" className="social-icon" />
-          </a>
+          </a> */}
           <div className="line"></div>
         </div>
       </div>
@@ -70,9 +70,9 @@ const About = ({ num }) => {
       </div>
       <div className="downloadButtonContainer">
         {/* <div className="lying" ref={container}></div> */}
-        <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
+        {/* <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
           DOWNLOAD MY RESUME
-        </a>
+        </a> */}
       </div>
     </div>
   );
