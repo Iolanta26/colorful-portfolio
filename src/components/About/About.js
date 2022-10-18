@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+// import React, { useEffect, useRef } from "react";
+// import lottie from "lottie-web";
 
 import pdf from "./CV.pdf";
 
@@ -10,18 +10,20 @@ import github from "./github.svg";
 import study from "./study.jpg";
 import work from "./work.jpg";
 
-const About = () => {
-  const container = useRef(null);
+const About = ({ num }) => {
+  // const container = useRef(null);
 
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./about.json"),
-    });
-  });
+  console.log("scroll:", num);
+
+  // useEffect(() => {
+  //   lottie.loadAnimation({
+  //     container: container.current,
+  //     renderer: "svg",
+  //     loop: true,
+  //     autoplay: true,
+  //     animationData: require("./about.json"),
+  //   });
+  // });
 
   return (
     <div className="about" id="about">
@@ -67,7 +69,7 @@ const About = () => {
         </div>
       </div>
       <div className="downloadButtonContainer">
-        <div className="lying" ref={container}></div>
+        {/* <div className="lying" ref={container}></div> */}
         <a href={pdf} download="Iolanta_Scheifel_CV" className="btn">
           DOWNLOAD MY RESUME
         </a>

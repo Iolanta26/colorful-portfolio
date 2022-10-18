@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+// import lottie from "lottie-web";
 
 import "./skills.css";
 
@@ -16,26 +16,27 @@ import github from "./icons/github.png";
 import sc from "./icons/sc.png";
 // import nextjs from "./icons/next-js.png";
 import next from "./icons/next-js.svg";
+import tail from "./icons/tailwind-css.svg";
 
 const Skills = () => {
-  const container = useRef(null);
+  // const container = useRef(null);
 
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./skills.json"),
-    });
-  });
+  // useEffect(() => {
+  //   lottie.loadAnimation({
+  //     container: container.current,
+  //     renderer: "svg",
+  //     loop: true,
+  //     autoplay: true,
+  //     animationData: require("./skills.json"),
+  //   });
+  // });
 
   return (
     <div className="skills" id="skills">
       <div className="skills-main-container">
         <div className="skills-name-wrapper">
           <h1 className="skillsName">Skills</h1>
-          <div className="lottie" ref={container}></div>
+          {/* <div className="lottie" ref={container}></div> */}
         </div>
         <div className="skills-icon-container">
           <div className="skill">
@@ -47,14 +48,6 @@ const Skills = () => {
             Javascript
           </div>
           <div className="skill">
-            <img src={html} alt="html" className="icon" />
-            HTML
-          </div>
-          <div className="skill">
-            <img src={css} alt="css" className="icon" />
-            CSS
-          </div>
-          <div className="skill">
             <img src={ts} alt="ts" className="icon" />
             Typescript
           </div>
@@ -63,8 +56,20 @@ const Skills = () => {
             Next Js
           </div>
           <div className="skill">
+            <img src={html} alt="html" className="icon" />
+            HTML
+          </div>
+          <div className="skill">
+            <img src={css} alt="css" className="icon" />
+            CSS
+          </div>
+          <div className="skill">
             <img src={sass} alt="sass" className="icon" />
             Sass
+          </div>
+          <div className="skill">
+            <img src={tail} alt="tailwind" className="icon" />
+            Tailwind
           </div>
           <div className="skill">
             <img src={git} alt="git" className="icon" />

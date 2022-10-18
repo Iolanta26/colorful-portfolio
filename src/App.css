@@ -11,6 +11,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.sections {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 .section {
   margin: 0;
 }
