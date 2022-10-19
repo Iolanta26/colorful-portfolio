@@ -1,25 +1,27 @@
-import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+import animationData from "./about.json";
+import Lottie from "react-lottie";
 
 import "./footer.css";
 
 const Footer = () => {
-  const container = useRef(null);
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./about.json"),
-    });
-  });
   return (
     <div className="footer">
-      <div className="lying" ref={container}></div>
-      <div>+45 93804766</div>
-      <div>iolanta.scheifel@gmail.com</div>
+      <div style={{ marginBottom: "10px" }}>
+        <Lottie options={defaultOptions} height={170} width={150} />
+      </div>
+      <div className="contact-container">
+        <div>+45 93804766</div>
+        <div>iolanta.scheifel@gmail.com</div>
+      </div>
     </div>
   );
 };

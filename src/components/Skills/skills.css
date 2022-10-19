@@ -1,29 +1,8 @@
-#skills {
-  height: 100vh;
-}
-
-.skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.lottie {
-  width: 10rem;
-  margin-left: 10px;
-}
-
 .skills-main-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 60%;
-  /* background-color: rgba(41, 54, 116, 0.8);
-  -webkit-box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2);
-  box-shadow: 6px 8px 24px 18px rgba(12, 12, 12, 0.2); */
-  border-radius: 15px;
-  position: relative;
 }
 
 @media only screen and (max-width: 768px) {
@@ -37,10 +16,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   width: 90%;
+  gap: 0.4rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -51,20 +28,16 @@
 }
 
 .skills-name-wrapper {
-  position: absolute;
-  top: -90px;
-  right: -60px;
   display: flex;
   align-items: center;
   width: fit-content;
 }
 
 .skillsName {
-  color: white;
-  font-size: 40px;
-  font-weight: 200;
+  font-size: 24px;
+  font-weight: 300;
   font-family: "Poppins", sans-serif;
-  color: #20bcf7;
+  color: antiquewhite;
 }
 
 .skill {
@@ -74,25 +47,12 @@
   color: antiquewhite;
   font-size: 13px;
   font-weight: 200;
-  background-color: #121831;
-  border-radius: 15px;
+  background-color: transparent;
   padding: 10px;
-  -webkit-box-shadow: 2px 3px 3px 4px rgba(12, 12, 12, 0.2);
-  box-shadow: 2px 3px 3px 4px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(
-    226deg,
-    rgba(255, 255, 255, 0.08) 0%,
-    rgba(255, 255, 255, 0.05) 15%,
-    rgba(255, 255, 255, 0.03) 20%,
-    rgba(255, 255, 255, 0) 40%
-  );
-  transform: translateY(-20%);
-  will-change: transform;
-  transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
 }
 
 .icon {
-  width: 50px;
+  width: 30px;
   margin: 15px;
 }
 

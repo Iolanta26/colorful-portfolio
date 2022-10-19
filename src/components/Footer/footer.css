@@ -2,25 +2,20 @@
   height: 4rem;
   position: fixed;
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.12) 0%,
-    rgba(255, 255, 255, 0.09) 20%,
-    rgba(255, 255, 255, 0.07) 30%,
-    rgba(255, 255, 255, 0) 70%
-  );
+  background-color: transparent;
   color: antiquewhite;
-  font-weight: 200;
-  font-size: 14px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  z-index: 0;
 }
 
-.lying {
-  width: 150px;
-  position: absolute;
-  bottom: 0;
+.contact-container {
+  font-size: 13px;
+  font-weight: 200;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 5px;
 }

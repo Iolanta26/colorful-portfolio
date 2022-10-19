@@ -7,118 +7,32 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 40px;
 }
 
-.flexContainer {
+.cards {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin-bottom: 40px;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .flexContainer {
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-.projectsContainer {
-  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 15px;
+  gap: 2rem;
+  list-style-type: none;
+  width: 70%;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .projectsContainer {
+  .cards {
     width: 90%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
-}
-
-.projectText {
-  color: white;
-  font-size: 30px;
-  font-weight: 200;
-  font-family: "Poppins", sans-serif;
 }
 
 .project-text {
   font-size: 16px;
   font-weight: 200;
-  margin-bottom: 50px;
   color: #20bcf7;
-}
-
-.project {
-  text-decoration: none;
-  width: 250px;
-  display: flex;
-  justify-content: center;
-}
-
-.project-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20rem;
-}
-
-.img-container {
-  height: 12rem;
-  width: 12rem;
-  overflow: hidden;
-  border-radius: 20px;
-  display: inline-block;
-  position: relative;
-}
-
-.img-container img {
-  height: 14rem;
-}
-
-.img-container img:hover,
-.img-container img:focus {
-  transform: scale(1.3);
-  transition: 0.4s ease;
-}
-
-.text-container {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-  padding: 120px 10px 20px 20px;
-  border-radius: 20px;
-  background: #313d69;
-  margin: -120px 0px 0px 0px;
-  line-height: 19px;
-  font-size: 14px;
-  font-weight: 200;
-  width: 13rem;
-  height: 16rem;
-  color: antiquewhite;
-}
-
-.text-container h3 {
-  margin: 10px 0px 10px 0px;
-  color: antiquewhite;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.animation-container {
-  position: relative;
-}
-
-.animation {
-  width: 8.5rem;
-  position: absolute;
-  top: -76px;
-  right: -120px;
+  margin-bottom: 50px;
 }
