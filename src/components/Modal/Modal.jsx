@@ -1,24 +1,20 @@
 import "./modal.css";
-import animationData from "./info.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
+import animation from "./info.json";
 import x from "./x.png";
 import Skills from "../Skills/Skills";
 
 const Modal = ({ closeModal }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
-    <div className="background" onClick={() => closeModal(false)}>
+    <div className="background">
       <div className="modal-container">
         <div className="info-wrapper">
-          <Lottie options={defaultOptions} height={100} width={130} />
+          <Player
+            autoplay
+            loop
+            src={animation}
+            style={{ height: "150px", width: "150px" }}
+          />
           <button className="close-btn" onClick={() => closeModal(false)}>
             <img src={x} alt="x" />
           </button>
