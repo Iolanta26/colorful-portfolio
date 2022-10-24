@@ -10,6 +10,19 @@
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    top: 11%;
+  }
+}
+
 @keyframes myAnim {
   0% {
     animation-timing-function: ease-in;
@@ -63,6 +76,16 @@
   gap: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .social-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+  }
+}
+
 .social-icon {
   width: 25px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
@@ -98,4 +121,11 @@
   width: 30px;
   margin-bottom: 10px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .download-icon {
+    width: 25px;
+  }
 }
