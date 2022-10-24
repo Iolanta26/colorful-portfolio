@@ -11,9 +11,8 @@ import Card from "./Card";
 const Projects = () => {
   return (
     <div className="projects" id="projects">
-      <h1 className="welcome">Welcome!</h1>
       <div className="project-text">
-        Check out some of my projects right here
+        Check out some of my recent projects right here
       </div>
 
       <SideButtons />

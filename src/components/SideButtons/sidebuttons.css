@@ -65,11 +65,11 @@
 
 .social-icon {
   width: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .social-icon:hover {
   transform: translateY(3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.3s;
 }
 
@@ -91,11 +91,11 @@
 
 .btn:hover {
   transform: translateY(3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.3s;
 }
 
 .download-icon {
   width: 30px;
   margin-bottom: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }

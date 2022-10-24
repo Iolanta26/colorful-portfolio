@@ -44,19 +44,9 @@
   align-items: center;
   text-align: center;
   color: antiquewhite;
-  /* color: rgba(0, 0, 0, 0.4); */
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 200;
-  /* background-color: blanchedalmond; */
-  position: relative;
-}
-
-.animation {
-  position: absolute;
-  width: 150px;
-  /* height: 100px; */
-  /* background-color: aquamarine; */
-  right: 0;
+  opacity: 0.8;
 }
 
 .photo-container {

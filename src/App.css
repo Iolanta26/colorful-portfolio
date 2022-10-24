@@ -1,17 +1,25 @@
-body {
-  height: 100%;
-  background-image: url("./back11.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.app {
+  height: 100vh;
+  background-image: url("./back11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.more-info-container {
+  position: absolute;
+  /* background-color: aqua; */
+  width: fit-content;
+  bottom: 10%;
+  right: 3%;
 }
 
 .more-info-btn {
@@ -21,9 +29,6 @@ body {
   background-color: transparent;
   color: #fde351;
   cursor: pointer;
-  position: absolute;
-  top: 80%;
-  right: 3%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
   animation: fade-in 3s ease forwards;
 }
@@ -35,9 +40,36 @@ body {
 
 .small-app-text {
   color: antiquewhite;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 200;
   position: absolute;
-  left: 3%;
+  left: 2%;
   opacity: 0.8;
+}
+
+.footer {
+  width: 100%;
+  background: transparent;
+  color: antiquewhite;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.contact-container {
+  font-size: 13px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.animation-lying {
+  position: absolute;
+  top: -103px;
+  right: -20px;
 }

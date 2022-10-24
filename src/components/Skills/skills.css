@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 90%;
+  width: 70%;
   gap: 0.4rem;
   opacity: 0;
   animation: fade-in 0.8s ease forwards;

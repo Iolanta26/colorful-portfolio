@@ -1,5 +1,5 @@
 #projects {
-  height: 93vh;
+  height: 96vh;
 }
 
 .projects {
@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   list-style-type: none;
-  width: 70%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -28,12 +28,6 @@
     align-items: center;
     flex-wrap: wrap;
   }
-}
-
-.welcome {
-  color: white;
-  font-weight: 200;
-  margin-bottom: 10px;
 }
 
 .project-text {
