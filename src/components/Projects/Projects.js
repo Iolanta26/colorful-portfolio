@@ -11,6 +11,7 @@ import Card from "./Card";
 const Projects = () => {
   return (
     <div className="projects" id="projects">
+      <h1 className="welcome">Welcome!</h1>
       <div className="project-text">
         Check out some of my projects right here
       </div>
@@ -23,6 +24,7 @@ const Projects = () => {
           headline="Portugal in your pocket"
           app="Mobile App"
           desc="Created using Next Js, Typescript, Redux, Styled Components."
+          className="card-wrapper"
         />
         <Card
           link="https://dashboard-iolanta-scheifel.netlify.app/"
@@ -30,6 +32,7 @@ const Projects = () => {
           headline="Smarty Dashboard"
           app="Web App"
           desc="Created using React Js, Context Api, SASS."
+          className="card-wrapper-second"
         />
         <Card
           link="https://food-app-iolanta.netlify.app/"
@@ -37,6 +40,7 @@ const Projects = () => {
           image={food_order}
           app="Web App"
           desc="Created using React Js, Context Api, state management."
+          className="card-wrapper-third"
         />
         <Card
           link="https://recipes-iolanta.netlify.app"
@@ -45,6 +49,7 @@ const Projects = () => {
           app="Web App"
           desc="Frontend: React Js.
           Backend: PHP and Symfony"
+          className="card-wrapper-fourth"
         />
         <Card
           link="https://iolanta-scheifelphotographer.netlify.app/"
@@ -52,6 +57,7 @@ const Projects = () => {
           image={photographer}
           app="Web App"
           desc="Created using React Js, state management."
+          className="card-wrapper-fifth"
         />
       </div>
     </div>

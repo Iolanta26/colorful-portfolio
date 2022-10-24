@@ -16,6 +16,7 @@ function App() {
       <button className="more-info-btn" onClick={() => setOpenModal(true)}>
         MORE INFO
       </button>
+      <div className="small-app-text">Designed and coded by me</div>
       <Footer />
     </div>
   );

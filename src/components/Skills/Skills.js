@@ -11,7 +11,6 @@ import react from "./icons/atom.png";
 import figma from "./icons/figma.png";
 import github from "./icons/github.png";
 import sc from "./icons/sc.png";
-// import nextjs from "./icons/next-js.png";
 import next from "./icons/next-js.svg";
 import tail from "./icons/tailwind-css.svg";
 

@@ -7,7 +7,6 @@ import downloadIcon from "./download.svg";
 const SideButtons = () => {
   return (
     <div className="buttons">
-      {/* <button className="more-info-btn">MORE INFO</button> */}
       <div className="social-bar">
         <a
           href="https://www.linkedin.com/in/iolanta-scheifel/"

@@ -30,9 +30,56 @@
   }
 }
 
+.welcome {
+  color: white;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
 .project-text {
   font-size: 16px;
   font-weight: 200;
-  color: #20bcf7;
+  color: antiquewhite;
   margin-bottom: 50px;
+  animation: fade-in 3s ease forwards;
+}
+
+.card-wrapper {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+  animation-delay: 0.05s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-wrapper-second {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+  animation-delay: 0.25s;
+}
+
+.card-wrapper-third {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.card-wrapper-fourth {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+  animation-delay: 0.75s;
+}
+
+.card-wrapper-fifth {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+  animation-delay: 1s;
 }

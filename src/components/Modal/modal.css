@@ -13,13 +13,18 @@
   justify-content: center;
   height: 80vh;
   width: 70vw;
-  background-color: #081544;
+  background-image: url("./modal.jpg");
+  background-position: center;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 200;
-  color: antiquewhite;
+  color: white;
   border-radius: 40px;
   box-shadow: 2px 12px 19px 7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 2px 12px 19px 7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 12px 19px 7px rgba(0, 0, 0, 0.75);
+  animation: fade-in 0.8s ease forwards;
 }
 
 .info-wrapper {
@@ -41,23 +46,9 @@
   cursor: pointer;
 }
 
-.about-container,
-.skills-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 30px;
-}
-
 .headline {
   font-size: 18px;
   font-weight: 300;
-}
-
-.description-text {
-  font-size: 13px;
-  font-weight: 200;
 }
 
 .close-btn:hover {
