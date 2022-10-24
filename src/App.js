@@ -4,7 +4,7 @@ import Projects from "./components/Projects/Projects";
 import "./App.css";
 import { useState } from "react";
 import Modal from "./components/Modal/Modal";
-import animationData from "./about.json";
+import animationData from "./morebtn.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             autoplay
             loop
             src={animationData}
-            style={{ height: "170px", width: "150px" }}
+            style={{ height: "150px", width: "150px" }}
           />
         </div>
         <button className="more-info-btn" onClick={() => setOpenModal(true)}>

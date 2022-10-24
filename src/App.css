@@ -8,7 +8,7 @@
 
 .app {
   height: 100vh;
-  background-image: url("./back11.jpg");
+  background-image: url("./back.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,13 +23,13 @@
 }
 
 .more-info-btn {
-  border: 1.5px solid #fde351;
+  border: 1.5px solid antiquewhite;
   border-radius: 15px;
   padding: 10px 15px;
   background-color: transparent;
-  color: #fde351;
+  color: antiquewhite;
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   animation: fade-in 3s ease forwards;
 }
 
@@ -70,6 +70,6 @@
 
 .animation-lying {
   position: absolute;
-  top: -103px;
+  top: -115px;
   right: -20px;
 }

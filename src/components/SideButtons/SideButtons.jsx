@@ -1,8 +1,8 @@
 import "./sidebuttons.css";
-import linkedin from "./linkedin.svg";
-import github from "./github.svg";
+import linkedin from "./link.svg";
+import github from "./git.svg";
 import pdf from "./CV.pdf";
-import downloadIcon from "./download.svg";
+import downloadIcon from "./down.svg";
 
 const SideButtons = () => {
   return (

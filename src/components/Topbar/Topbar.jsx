@@ -1,7 +1,7 @@
 import "./topbar.css";
 
-import logo from "./logo1.png";
-import myPhoto from "./Vector.png";
+import logo from "./logo.png";
+import myPhoto from "./me.png";
 
 const Topbar = () => (
   <div className="topbar">

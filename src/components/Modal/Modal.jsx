@@ -1,7 +1,7 @@
 import "./modal.css";
 import { Player } from "@lottiefiles/react-lottie-player";
-import animation from "./info.json";
-import x from "./x.png";
+import animation from "./girl.json";
+import x from "./x.svg";
 import Skills from "../Skills/Skills";
 
 const Modal = ({ closeModal }) => {
