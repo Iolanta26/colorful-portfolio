@@ -1,18 +1,12 @@
-.background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
 .modal-container {
   position: absolute;
   top: 10%;
+  left: 15%;
   display: flex;
   justify-content: center;
+  text-align: center;
   height: 80vh;
-  width: 70vw;
+  width: 70%;
   background-image: url("./modal.jpg");
   background-position: center;
   background-position-x: right;
@@ -33,7 +27,8 @@
     display: flex;
     justify-content: center;
     height: 80vh;
-    width: 90vw;
+    width: 100%;
+    left: 0;
   }
 }
 
