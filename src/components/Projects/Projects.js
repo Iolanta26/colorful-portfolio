@@ -3,6 +3,7 @@ import photographer from "./pictures/photographer.jpg";
 import food_order from "./pictures/food-order.jpg";
 import portugal from "./pictures/portugal.jpg";
 import dashboard from "./pictures/dashboard.jpg";
+import painting from "./pictures/painting.jpeg";
 
 import "./projects.css";
 import SideButtons from "../SideButtons/SideButtons";
@@ -24,6 +25,14 @@ const Projects = () => {
           app="Mobile App"
           desc="Created using Next Js, Typescript, Redux, Styled Components."
           className="card-wrapper"
+        />
+        <Card
+          link="https://paintings-iolanta.netlify.app/"
+          headline="Paintings Library"
+          image={painting}
+          app="Web App"
+          desc="Created using Next Js 13, frame-motion dependancy."
+          className="card-wrapper-fifth"
         />
         <Card
           link="https://dashboard-iolanta-scheifel.netlify.app/"
