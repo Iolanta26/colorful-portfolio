@@ -20,9 +20,6 @@
   flex-wrap: wrap;
   width: 70%;
   gap: 0.4rem;
-  opacity: 0;
-  animation: fade-in 0.8s ease forwards;
-  animation-delay: 0.7s;
 }
 
 @media only screen and (max-width: 768px) {
