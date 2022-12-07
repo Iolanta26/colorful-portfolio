@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import "./sidebuttons.css";
 import linkedin from "./link.svg";
 import github from "./git.svg";
-import pdf from "./CV.pdf";
+import pdf from "./CV_IolantaScheifel.pdf";
 import downloadIcon from "./down.svg";
 import { fadeInRight, stagger } from "../../animations";
 
